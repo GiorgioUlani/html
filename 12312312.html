@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.margines {
+				padding: 15px;
+			}
+			.container {
+				display:grid;
+				grid-template-columns: repeat(4, 25%);
+				grid-template-rows: 100px;
+				grid-column-gap: 10px;
+				grid-row-gap: 20px;
+				
+			}
+			.large {
+				grid-column-start: 2;
+				grid-column-end: 4;
+			}
+			.large2 {
+				grid-row-start: 1;
+				grid-row-end: 3;
+			}
+			.row {
+				outline: 1px solid black;
+				background-color: black;
+			}
+			.button.orange {
+				outline: 1px solid orange;
+				background-color: orange;
+				}
+				.button {
+					box-sizing: border-box;
+					background-color: #FAFAFA;
+					padding: 12px;
+					text-align: center;
+				}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="row large2">1</div>
+			
+		</div>
+		<div class="calculator">
+			<div class="button">C</div>
+			<div class="button">%</div>
+			<div class="button"><-</div>
+			<div class="button orange">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			<div class="button">C</div>
+			
+		</div>
+	</body>
+</html>
