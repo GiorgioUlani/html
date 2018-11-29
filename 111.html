@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+			div{
+			border:1px solid red;
+			}
+			.container{
+			border:0px solid red;
+			height: 50px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content: space-around;
+			align-items: baseline;
+			align-content: flex-start;
+			}
+			</style>
+		</head>
+		<!-- Notatka 
+			"flex"		        "grid"
+			display: flex;
+			flex: direction : row-column(uklada kolumny po kolei)|row-reverse(uklada wiersze odwrotnie do kolejnosci)|column-reverse (uklada kolumny odwrotnie do kolejnosci)| 
+			flex-wrap: nowrap (powoduje ze kolumny nie wychodza poza strone, ale jest wylaczony)|wrap (powoduje ze kolumny nie wychodza poza strone, ale jest wlaczony)|wrap-reverse(nie przyda sie ale cos robi)
+			flex-flow: direction : wrap;
+			justify-content: flex-start (uklada kolumny od lewej) flex-end(uklada kolumny od prawej) flex-center(uklada kolumny na srodku) tylko w poziomie
+			align-items (uklada kolumny tylko w pionie): flex-start; flex-end; stretch; center;
+			space-between (ustawia odstep miedzy blokami)
+			space-around (ustawia odstep bloku od wszystkiego)
+				"grid"
+			<div> //contener
+			<div> divy w kontenerze bez uzycia cssa i stylu uloza sie jeden pod drugim	\
+			<div>
+		   </div>
+					-->
+		<body>
+			<div class=container>
+				<div class="element">Element1</div>
+				<div class="element">Element2</div>
+				<div class="element">Element3</div>
+				<div class="element">Element4</div>
+				<div class="element">Element5</div>
+				<div class="element">Element6</div>
+				<div class="element">Element7</div>
+				<div class="element">Element8</div>
+				<div class="element">Element9</div>
+				<div class="element">Element10</div>
+			</div>
+			<div class=container>
+				<div class="element">Element1</div>
+				<div class="element">Element2</div>
+				<div class="element">Element3</div>
+				<div class="element">Element4</div>
+				<div class="element">Element5</div>
+				<div class="element">Element6</div>
+				<div class="element">Element7</div>
+				<div class="element">Element8</div>
+				<div class="element">Element9</div>
+				<div class="element">Element10</div>
+			</div>
+			<div class=container>
+				<div class="element">Element1</div>
+				<div class="element">Element2</div>
+				<div class="element">Element3</div>
+				<div class="element">Element4</div>
+				<div class="element">Element5</div>
+				<div class="element">Element6</div>
+				<div class="element">Element7</div>
+				<div class="element">Element8</div>
+				<div class="element">Element9</div>
+				<div class="element">Element10</div>
+			</div>
+			<div class=container>
+				<div class="element">Element1</div>
+				<div class="element">Element2</div>
+				<div class="element">Element3</div>
+				<div class="element">Element4</div>
+				<div class="element">Element5</div>
+				<div class="element">Element6</div>
+				<div class="element">Element7</div>
+				<div class="element">Element8</div>
+				<div class="element">Element9</div>
+				<div class="element">Element10</div>
+			</div>
+		</body>
+	</html>
