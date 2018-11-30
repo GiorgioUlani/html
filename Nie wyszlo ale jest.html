@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+			header, footer, .content* {
+				padding: 1em;			
+			}
+			.container{
+				display:flex;
+				flex-direction: column;
+				flex-wrap:nowrap;
+				justify-content: ;
+				align-items: ;
+				align-content: ;
+			}
+			.container, div, header, footer {
+				box-sizing: border-box;
+			}
+			header, footer {
+				flex-basis: 20vh;
+				background-color: yellowgreen;
+			
+			}
+			.content {
+				display: flex;
+				flex-basis: 60vp;
+			}
+			.content * {
+			border: solid red;
+			}
+			.container div, header, footer {
+			box-sizing: border-box;
+			
+			}
+			nav, aside {
+				flex-basis: 20vh;
+			}
+			section {
+				flex-grow: 1;
+			}
+			nav {
+				background-color: #D7E8D4;
+				width: 200px;
+			}
+			aside {
+				background-color: beige;
+			}
+			</style>
+		</head>
+		<body>
+			<div class="container">
+				<header> 123 </header>
+					<div class="content">
+						<section> Treść</section>
+						<aside> Reklama </aside>
+						<nav> Menu </nav>
+					</div>
+				<footer> 123 </footer>
+			</div>
+		</body>
+	</html>
