@@ -21,9 +21,8 @@ let butelka={
 	zawartosc :["woda","E250","konserwanty"],
 	wymiary: [100,200],
 	napijsie: function() { console.log("PIJE");
-	
-}
-};
+	}
+	};
 
 console.log(butelka);
 console.log(butelka.objetosc);
@@ -31,3 +30,10 @@ butelka.napijsie();
 
 butelka.objetosc=2;
 console.log(butelka);
+
+window.alert("Uwaga EZN")
+let odpowiedz = window.confirm("Na pewno chcesz tu wejść ?");
+console.log(odpowiedz)
+
+ imie=window.prompt("Wprowadz swoje imie");
+console.log(imie);
