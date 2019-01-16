@@ -26,3 +26,8 @@ let butelka={
 };
 
 console.log(butelka);
+console.log(butelka.objetosc);
+butelka.napijsie();
+
+butelka.objetosc=2;
+console.log(butelka);
