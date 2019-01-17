@@ -1,0 +1,92 @@
+
+/**
+console.log("hello-plik zewnętrzny")
+
+console.trace("śledzimy tylko");
+
+console.warn("Tutaj wystąpił błąd")
+
+console.error("Tutaj wystąpił błąd")
+
+let komputer={
+	ram : 8,
+	monitor : ["Dell","Dell"]
+}; 
+
+console.log(komputer);
+console.table(komputer);
+
+
+let imie= "Adam";
+let imie2= 'Adam';
+let imie3= String("tutaj imie")
+let imie4= new String ("tutaj imie")
+console.log(imie3);
+	
+
+let imie= "Adam";
+let nazwisko= "Kowalski";
+let spacja = " "
+
+let imie_i_nazwisko= imie + spacja + nazwisko
+let imie_i_nazwisko2= `<h1> ${imie} ${nazwisko} </h1>`;
+document.write(imie_i_nazwisko2);
+let tabela = `<table border=1>
+				<tr>
+					<th> Imie i nazwisko </th>
+					<th> Telefon </th>
+					<th> Email </th>
+				</tr>
+				<tr>
+					<td> ${imie} ${nazwisko} </td>	
+					<td> ${tel} </td>
+					<td> ${mail} </td>
+				</tr>
+			</table>`;
+**/
+let imie=window.prompt("Wprowadz swoje imie");
+console.log(imie)
+let nazwisko=window.prompt("Wprowadz swoje nazwisko");
+console.log(nazwisko)
+let tel=window.prompt("Wprowadz swoj numer telefonu");
+console.log(tel)
+let mail=window.prompt("Wprowadz swoj email");
+console.log(mail)
+
+		let tresc= document.getElementById("tresc");
+		console.log(tresc);
+		let imie2= document.getElementById("imie");
+		console.log(imie);
+		let nazwisko2= document.getElementById("nazwisko");
+		console.log(nazwisko);
+		let telefon= document.getElementById("tel");
+		console.log(tel);
+		let mail2= document.getElementById("mail");
+		console.log(mail);
+		
+		<!--- drugi plik ---->
+    <!DOCTYPE html>
+	<meta charset="UTF-8">
+	<html>
+		<head>	
+		</head>
+		<body>
+			<h1>Hi World</h1>
+			<table border="1">
+			<tr>
+					<th> Imie i nazwisko </th>
+					<th> Telefon </th>
+					<th> Email </th>
+				</tr>
+				<tr>
+					<td id=imienaz> ${imie} ${nazwisko} </td>
+					<td id=tel> ${tel} </td>
+					<td id=mail> {mail} </td>
+				</tr>
+			</table>
+			<!-- <div id="tresc" style="color: red">JDJDJDJDJDJDJDJD</div> -->
+			<script type="text/javascript" src="new 1.js"/> </script>
+		</body>
+	</html>
+		
+	
