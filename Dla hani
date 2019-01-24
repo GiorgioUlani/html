@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+	<meta charset="UTF-8">
+	<head>
+	
+	
+	</head>
+	<body id=body>
+	
+	<script>
+	
+	function pierwsze(){
+	let zm1 =1/4; 
+	let zm2 =7*10;
+	let zm3 =7;
+	let zm4 ="!";
+	let zm5 = "Czy świeci słońce ??";
+	let zm6 = "C:\TEMP";
+	let zm7 = null;
+	document.getElementById("body");
+	body.append(zm1, zm2, zm3 ,zm4 , zm5, zm6, zm7);
+	};	
+	function drugie (){
+	
+	
+	
+	
+	}	
+	pierwsze();
+	drugie();
+	</script>
+	
+	
+	</body>
+</html>
