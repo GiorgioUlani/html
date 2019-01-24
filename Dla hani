@@ -7,29 +7,64 @@
 	</head>
 	<body id=body>
 	
-	<script>
-	
-	function pierwsze(){
-	let zm1 =1/4; 
-	let zm2 =7*10;
-	let zm3 =7;
-	let zm4 ="!";
-	let zm5 = "Czy świeci słońce ??";
-	let zm6 = "C:\TEMP";
-	let zm7 = null;
-	document.getElementById("body");
-	body.append(zm1, zm2, zm3 ,zm4 , zm5, zm6, zm7);
-	};	
-	function drugie (){
-	
-	
-	
-	
-	}	
-	pierwsze();
-	drugie();
-	</script>
-	
-	
+		<script>
+		
+		function pierwsze(){
+		let zm1 =1/4; 
+		let zm2 =7*10;
+		let zm3 =7;
+		let zm4 ="!";
+		let zm5 = "Czy świeci słońce ??";
+		let zm6 = "C:\TEMP";
+		let zm7 = null;
+		document.getElementById("body");
+		document.write(zm1);
+		document.write("<br>");
+		document.write(zm2);
+		document.write("<br>")
+		document.write(zm3);
+		document.write("<br>")
+		document.write(zm4);
+		document.write("<br>")
+		document.write(zm5);
+		document.write("<br>")
+		document.write(zm6);
+		document.write("<br>")
+		document.write(zm7);
+		document.write("<br>")
+		};	
+		function drugie (){
+		let a = window.prompt("Podaj A");
+		a = parseInt(a);
+		let b = window.prompt("Podaj B");
+		b = parseInt(b);
+		let c = a + b ;
+		document.write("A + B =",a+b, "<br>")
+		};	
+		function trzecie (){
+		document.write("2+2=",2+2, "<br>");
+		document.write("(2+2)*2=",(2+2)*2, "<br>");
+		document.write("34/(20-3*5)=",34/(20-3*5), "<br>");
+		};
+		function czwarte(){
+		let x = document.getElementById("a");
+		let y = document.getElementById("b");
+		x = parseInt(x);
+		y = parseInt(y);
+		let z = x + y;
+		z = parseInt(z);
+		document.write(z);
+		
+		};
+		pierwsze();
+		drugie();
+		trzecie();
+		czwarte();
+		</script>
+		<form>
+			<input type="text" id="a"> </input>
+			<input type="text" id="b"> </input>
+		</form>
+		<button id="przycisk" onclick=czwarte();>Policz</button>
 	</body>
 </html>
