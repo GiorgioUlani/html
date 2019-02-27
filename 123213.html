@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title> Maken to debil </title>
+		<style>
+		
+		
+		
+		</style>
+		<script>
+		
+		
+		</script>	
+	</head>
+	<body>
+		<table id="tabliczka" border="1"></table>
+		
+		<script>
+			for(var i=1;i<=10;i++){
+			let tr = document.createElement("tr")
+			let tabliczka = document.getElementById("tabliczka");
+			tabliczka.append(tr);
+			for(var j = 1;j<=10; j++)	{
+			let dt = document.createElement("td")
+			dt.innerHTML= j * i;
+			tr.append(dt);
+			if(i == j){
+			dt.style.color ="red";
+			}
+			}
+			}
+		
+		</script>
+	</body>
+</html>
