@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Zadanie na najlepszej lekcji na świecie </title>
+	
+	
+	</head>
+	<body>
+	<h1> Najważniejsze 10 funkcji </h1>
+	<br> 1. Location.assign -Ładuje nowy documen
+	<br> 2. Location.reload -Ponownie ładuje bieżący dokument
+	<br> 3. Location.hash -Ustawia lub zwraca część zakotwiczenia (#) adresu URL
+	<br> 4. Location.port -Ustawia lub zwraca nazwę ścieżki adresu URL
+	<br> 5. Location.replace -Zastępuje bieżący dokument nowym
+	<br> 6. Location.protocol -Ustawia lub zwraca protokół adresu URL
+	<br> 7. Location.host -Ustawia lub zwraca nazwę hosta i numer portu URL
+	<br> 8. Location.href -Ustawia lub zwraca cały adres URL
+	<br> 9. Location.hostname -Ustawia lub zwraca nazwę hosta adresu URL
+	<br> 10. Location.pathname -Ustawia lub zwraca nazwę ścieżki adresu URL
+	</body>
+</html>
