@@ -11,8 +11,8 @@
 			position: relative;
 			}
 			.enemy{
-			width: 150px;
-			height: 150px;
+			width: 100px;
+			height: 100px;
 			background-image: url('http://www.maklowicz.pl/media/News/image/half/rm-cmoka-na-kajzerke-kwadrat.jpg');
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -23,6 +23,10 @@
 	</head>
 	<body>
 		<div id="board" class="board"></div>
+		<button onclick=enemy1.moveLewo()>LEWO</button>
+		<button onclick=enemy1.moveDol()>DOL</button>
+		<button onclick=enemy1.moveGora()>GORA</button>
+		<button onclick=enemy1.movePrawo()>PRAWO</button>	
 		<script>
 		function Enemy(name, speed) {
 			this.name = name;
@@ -46,7 +50,20 @@
 				board.append(this.enemy);
 				
 			}
-		
+			this.moveLewo = function() {
+          this.move(this.pos_x - 5, this.pos_y);}
+		  
+		  
+			this.moveGora = function() {
+          this.move(this.pos_x, this.pos_y - 5);}
+		  
+		  
+			this.moveDol = function() {
+          this.move(this.pos_x, this.pos_y + 5);}
+		  
+		  
+			this.movePrawo = function() {
+          this.move(this.pos_x + 5, this.pos_y);}
 		}
 		let enemy1 = new Enemy("nazwa postaci 1", 10);
 		enemy1.show();
