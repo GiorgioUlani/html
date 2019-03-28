@@ -1,0 +1,82 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+        <title>Maken to zwierzok</title>
+		<style>
+		.gora{
+			background-color:#009900;
+			z-index: 1;
+			height:200px;
+			width:100%;		
+		
+		}
+		.srodek{
+			background-color:#00CC33;
+			z-index: 1;
+			height:50px;
+			width:100%;
+			text-align:center;
+		}
+		.dol{
+			background-color:#3399CC;
+			z-index: 0;
+			height:200px;
+			width:100%;
+			text-align:center;
+		
+		}
+		img{
+			height:120px;
+			width:200px;
+			}
+		.image{
+			position: absolute;
+			top:50px;
+			left:10%;
+			right:10%;
+		
+		
+		}	
+		.teskt{
+			
+		
+		
+		}
+		
+		
+		</style>
+    </head>
+    <body>        
+		<div class = "gora">
+			<div class="image">
+			<img src=https://static.polityka.pl/_resource/res/path/1f/03/1f0392d0-20ea-4090-ab50-9986819a6995_600x></img>
+			<img src=https://i.sadistic.pl/pics/c804bdfd70c6.jpg ></img>
+			<img src=https://www.wykop.pl/cdn/c3201142/comment_vZn2QIY8hiM3tJPiziUWQh96JjhO4AUP.jpg ></img>
+			<img src=http://i.imgur.com/jXvQkHR.jpg ></img>
+			<img src=https://st2.depositphotos.com/1007009/7777/i/950/depositphotos_77774720-stock-photo-leopard.jpg ></img>
+			</div>		
+		</div>
+		<div class = "srodek">
+			<strong>Papuga</strong>
+		</div>
+		<div class = "dol">
+			<div class="tekst">
+				<div>
+					<strong> Papużko, papużko,</strong>
+				</div>
+				<div>
+					<strong> Powiedz mi coś na uszko.</strong>
+				</div>
+				<div>
+					<strong> Nic nie powiem, boś ty plotkarz,</strong>
+				</div>
+				<div>
+					<strong>Powtórzysz każdemu, kogo spotkasz</strong>
+				</div>
+			</div>
+		</div>
+	  <script>
+			
+      </script>		
+    </body>
+</html>
