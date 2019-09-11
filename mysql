@@ -1,0 +1,40 @@
+ create table osoba01
+(id_os int auto_increment primary key not null,
+imie varchar(20) not null,
+drugie_imie varchar(20),
+nazwisko varchar(20) not null,
+panienskie varchar(20),
+plec varchar(10),
+data_urodzenia date,
+miejsce_ur varchar(30),
+ulica varchar(30),
+pensja float);
+
+insert into osoba01
+values(null, "Magda", "Adrianna", "Kowalska", "Malinowska", "kobieta", "1991-05-21", "Wroclaw", "Borowska", 4800),
+(null, "Rafal", "Maciek", "Adamski", null, "mezczyzna", "1999-01-31", "Wroclaw", "Powstancow Slaskich", 1900),
+(null, "Waclaw", "Rafal", "Kowal", null, "mezczyzna", "2001-02-27", "Wroclaw", "Hallera", 3700),
+(null, "Adam", "Blazej", "Kowalczyk", null, "mezczyzna", "1988-02-27", "Warszawa", "Malarska", 5000),
+(null, "Marian", "Rafal", "Malinowski", null, "mezczyzna", "1940-06-17", "Wroclaw", "Braniborska", 4100),
+(null, "Agnieszka", "Barbara", "Malczynska", "Nowak", "kobieta", "1998-02-27", "Wroclaw", "Borowska", 15500),
+(null, "Marcin", "Radek", "Fecica", null, "mezczyzna", "1918-03-19", "Wroclaw", "Baranowska", 10000),
+(null, "Jakub", "Wojtek", "Sluszczak", null, "mezczyzna", "1998-05-17", "Wroclaw", "Malinowa", 12800),
+(null, "Maciek", "Jakub", "Wojak", null, "mezczyzna", "1995-07-17", "Wroclaw", "Porzeczkowa", 22800),
+(null, "Wojtek", "Maciek", "Gnat", null, "mezczyzna", "1990-09-25", "Wroclaw", "Kolejowa", 2000),
+(null, "Rafal", "Krystian", "Fojut", null, "mezczyzna", "1998-01-26", "Wroclaw", "Barabasza", 4000),
+(null, "Teodor", "Rafal", "Hermann", null, "mezczyzna", "1980-07-29", "Wroclaw", "Rudolfa", 6000),
+(null, "Hanna", "Ezlbieta", "Baranska", "Fojut", "kobieta", "1998-12-13", "Wroclaw", "Ojca Pio", 7100),
+(null, "Angelika", "Julia", "Olesinska", "Hermann", "kobieta", "1990-10-31", "Wroclaw", "Wojskowa", 6500),
+(null, "Julia", "Hanna", "Baranska", "Olesinska", "kobieta", "1995-10-22", "Wroclaw", "Briana i Jesici", 8700),
+(null, "Elzbieta", "Ola", "Kowalska", "Baranska", "kobieta", "1992-12-25", "Wroclaw", "Braniborska", 9000),
+(null, "Krystian", "Wojtek", "Kowalski", null, "mezczyzna", "2001-11-21", "Wroclaw", "Borowska", 1900);
+
+insert into osoba01(id_os,imie,nazwisko)
+values
+(null,"Adrian","Nowak"),
+(null,"Marian","Malinowski"),
+(null,"Marcin","Pio"),
+(null,"Adrianna","Nowakowska"),
+(null,"Adrzej","Pies");
+
+Update osoba01 set pensja=2000 where pensja<1999;
