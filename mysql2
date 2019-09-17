@@ -1,0 +1,23 @@
+create table osoba01
+(id_os int auto_increment primary key not null,
+imie varchar(20) not null,
+nazwisko varchar(20) not null,
+data_urodzenia date,
+wynagrodzenie int,
+miejscowosc varchar(30),
+pesel varchar(11));
+
+insert into osoba01
+values(null, "Magda", "Malinowska", "1991-05-21", 2500, "Wroclaw", "92942505131"),
+(null, "Rafal", "Adamski", "1999-01-31", 2500, "Wroclaw", "02454246777"),
+(null, "Waclaw", "Kowal", "2001-02-27", 8000, "Wroclaw", "01005438932"),
+(null, "Adam", "Kowalczyk", "1988-02-27", 7600, "Warszawa","12548967543"),
+(null, "Marian", "Malinowski", "1940-06-17", 5600, "Wroclaw", "15478965428"),
+(null, "Andrzej", "Nowakowski", "1997-02-15", 5500, "Wroclaw", "155017583291"),
+(null, "Barabasz", "Nowacki", "1998-01-25", 3500, "Wroclaw", "155027583291"),
+(null, "Maciek", "Czarnecki", "1999-05-12", 4500, "Wroclaw", "155077583291"),
+(null, "Rudolf", "Brzezinski", "1990-04-07", 6500, "Wroclaw", "155017583291"),
+(null, "Grzegorz", "Wojak", "1991-02-17", 8500, "Wroclaw", "155067583291"),
+(null, "Michal", "Wojtan", "1992-03-15", 9500, "Wroclaw", "155047583291"),
+(null, "Jakub", "Musial", "1993-08-21", 4500, "Wroclaw", "155017583291"),
+(null, "Marcin", "Nowak", "1994-01-12", 7500, "Wroclaw", "155207583291");
