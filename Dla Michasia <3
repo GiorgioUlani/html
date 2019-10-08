@@ -1,0 +1,19 @@
+create table ksiazki
+(id_ks int auto_increment primary key not null,
+id_au int,
+tytul varchar(40),
+wydawnictwo varchar(30));
+
+insert into ksiazki
+values(null, "1", "Fraszki", "Fecica&Friends"), 
+(null, "2", "Krzyzacy", "Fecica&Friends"),
+(null, "3", "Lalka", "Fecica&Friends"),
+(null, "4", "Ksiegi Jakubowe", "Fecica&Friends"),
+(null, "1", "Treny", "Fecica&Friends"),
+(null, "2", "Latarnik", "Fecica&Friends"),
+(null, "2", "Faraon", "Fecica&Friends"),
+(null, "2", "Katarynka", "Fecica&Friends"),
+(null, "1", "Lament", "Fecica&Friends"),
+(null, "2", "Antek", "Fecica&Friends"),
+(null, "4", "Lalka i perla", "Fecica&Friends"),
+(null, "2", "Kamizelka", "Fecica&Friends");
