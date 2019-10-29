@@ -1,0 +1,33 @@
+create table samochody
+(id_s int auto_increment primary key not null,
+marka varchar(20) not null,
+model varchar(20),
+rok_pr int,
+kolor varchar(30),
+cena int);
+
+insert into samochody
+values( null, "Audi", "A5", "2019", "Czarny matowy", "208000"),
+( null, "Mazda", "Rx7", "2002", "Niebieski", "90000"),
+( null, "Audi", "A7", "2019", "Czerwony", "260000"),
+( null, "Mazda", "6", "2015", "Czarny", "50900"),
+( null, "Bmw", "X5", "2016", "Niemiecki", "228000"),
+( null, "Audi", "A3", "2015", "Czarny mat", "70000"),
+( null, "Mazda", "3", "2017", "Srebrny", "759000"),
+( null, "Audi", "Rs5", "2019", "Zielony", "508000"),
+( null, "Mazda", "Cx3", "2019", "Czarny", "84700"),
+( null, "Bmw", "M3", "2019", "Niebieski", "208000"),
+( null, "Nissan", "Skyline R34", "2002", "Srebrny", "512000"),
+( null, "Nissan", "Gtr", "2019", "Czarny mat", "515500"),
+( null, "Bmw", "M2", "2012", "Niebieski", "187580"),
+( null, "Audi", "RS7", "2020", "Czarny mat", "840000"),
+( null, "Nissan", "350z", "2007", "Szary matowy", "28000"),
+( null, "Bmw", "X5", "2019", "Czarny mat", "208000"),
+( null, "Bmw", "X5", "2019", "Czarny mat", "208000"),
+( null, "Nissan", "GT-R Nismo", "2017", "Czarny mat", "791000"),
+( null, "Nissan", "Nismo", "2012", "Czarny", "208000"),
+( null, "Mazda", "3", "2017", "Srebrny", "759000"),
+( null, "Mercedes", "S", "2019", "Srebrny", "422900"),
+( null, "Mercedes", "S", "2017", "Srebrny", "498000"),
+( null, "Aston Martin", "Vantage", "2010", "Bialy", "290000"),
+( null, "Aston Martin", "Rapide", "2011", "Niebieski", "295200");
